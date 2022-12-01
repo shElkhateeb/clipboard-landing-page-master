@@ -6,7 +6,7 @@
     --color-strong-cyan: hsl(171, 66%, 44%);
     --color-light-blue: hsl(233, 100%, 69%);
     --color-dark-grayish-blue: hsl(210, 10%, 33%);
-    --color-grayish-blue: hsl(201, 11%, 66%)
+    --color-grayish-blue: hsl(201, 11%, 66%);
 }
 
 body {
@@ -22,4 +22,14 @@ body {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%);
+ }
+
+ h1,
+ h2,
+ h3 {
+    color: var(--color-dark-grayish-blue);
+ }
+
+ p {
+    color: var(--color-grayish-blue);
  }
