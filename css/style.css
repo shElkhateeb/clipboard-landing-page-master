@@ -159,10 +159,23 @@ footer .social {
         background-size: cover;
     }
 
+    .big-img {
+        width: auto;
+    }
+
+    .h3rd.left {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(3, auto);
+    }
+
+    .h3rd.left img {
+        grid-row: span 3;
+    }
+
     .h3rd.left article {
         text-align: left;
     }
-
 
     footer {
         height: 150px;
