@@ -7,7 +7,7 @@
   --color-light-blue: hsl(233, 100%, 69%);
   --color-dark-grayish-blue: hsl(210, 10%, 33%);
   --color-grayish-blue: hsl(201, 11%, 66%);
-  --margin: 20px;
+  --margin: 10px;
   --margin-top: 100px;
   --padding: 1em;
 }
@@ -45,7 +45,7 @@ p {
 }
 
 button {
-    width: 300px;
+    width: 220px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
