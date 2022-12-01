@@ -81,6 +81,7 @@ footer .social {
 @media screen and (min-width: 1440px) {
     header {
         background-image: url("../images/bg-header-desktop.png");
+        background-size: cover;
     }
 
     footer {
