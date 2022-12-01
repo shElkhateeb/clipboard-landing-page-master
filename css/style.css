@@ -31,10 +31,12 @@ h1,
 h2,
 h3 {
   color: var(--color-dark-grayish-blue);
+  padding: var(--padding);
 }
 
 p {
   color: var(--color-grayish-blue);
+  padding: var(--padding);
 }
 
 .logo {
@@ -64,6 +66,10 @@ button ~ button {
     background-color: var(--color-light-blue);
     border-bottom-color: hsl(233, 100%, 50%);
     box-shadow: 0 5px 20px var(--color-light-blue);
+}
+
+.big-img {
+    width: 300px;
 }
 
 header {
