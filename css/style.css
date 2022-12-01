@@ -89,6 +89,7 @@ footer {
     padding: var(--padding);
     display: flex;
     flex-flow: column wrap;
+    margin-top: 150px;
 }
 
 footer a {
