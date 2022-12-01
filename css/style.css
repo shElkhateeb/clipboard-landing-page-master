@@ -8,7 +8,7 @@
   --color-dark-grayish-blue: hsl(210, 10%, 33%);
   --color-grayish-blue: hsl(201, 11%, 66%);
   --margin: 20px;
-  --margin-top: 150px;
+  --margin-top: 100px;
   --padding: 1em;
 }
 
@@ -129,7 +129,7 @@ footer {
     padding: var(--padding);
     display: flex;
     flex-flow: column wrap;
-    margin-top: var(--margin-top, 150px);
+    margin-top: var(--margin-top, 100px);
 }
 
 footer .logo {
