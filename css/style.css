@@ -61,7 +61,7 @@ button {
     box-shadow: 0 5px 20px var(--color-strong-cyan);
 }
 
-button ~ button {
+button.second {
     background-color: var(--color-light-blue);
     border-bottom-color: hsl(233, 100%, 50%);
     box-shadow: 0 5px 20px var(--color-light-blue);
