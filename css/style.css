@@ -46,7 +46,7 @@ button {
   background-color: var(--color-strong-cyan);
   color: white;
   font: inherit;
-  padding: var(--padding, 1em);
+  padding: 0.8em;
   border-bottom: solid 5px hsl(171, 66%, 33%);
   box-shadow: 0 5px 20px var(--color-strong-cyan);
 }
