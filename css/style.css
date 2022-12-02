@@ -125,7 +125,7 @@ section {
 }
 
 footer {
-  background-color: #eee;
+  background-color: #f5f6f8;
   padding: var(--padding);
   display: flex;
   flex-flow: column wrap;
