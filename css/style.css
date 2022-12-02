@@ -20,28 +20,8 @@ body {
   font-size: 18px;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-h1,
-h2,
-h3 {
-  color: var(--color-dark-grayish-blue);
-}
-
 p {
   color: var(--color-grayish-blue);
-}
-
-.logo {
-  font-family: "Varela Round", sans-serif;
-  font-size: 200px;
-  color: var(--color-strong-cyan);
 }
 
 button {
@@ -82,6 +62,11 @@ article {
 header {
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
+}
+
+header .logo {
+  padding-top: 100px;
+  width: 150px;
 }
 
 header > article {
@@ -136,12 +121,17 @@ footer {
   margin-top: var(--margin-top, 100px);
 }
 
-footer .logo {
-  font-size: 90px;
+footer .logo-container {
   height: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+footer .logo {
+  padding: 0;
+  width: 75px;
+  height: 75px;
 }
 
 footer a {
@@ -178,6 +168,20 @@ footer .social a:nth-child(3):hover {
     brightness(96%) contrast(91%);
   -webkit-filter: invert(28%) sepia(62%) saturate(2216%) hue-rotate(315deg)
     brightness(96%) contrast(91%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-dark-grayish-blue);
 }
 
 @media screen and (max-width: 376px) {
