@@ -76,7 +76,7 @@ header {
 
 header .logo {
   padding-top: 100px;
-  width: 150px;
+  width: 120px;
 }
 
 header > article {
@@ -141,8 +141,8 @@ footer .logo-container {
 
 footer .logo {
   padding: 0;
-  width: 75px;
-  height: 75px;
+  width: 40px;
+  height: 40px;
 }
 
 footer a {
