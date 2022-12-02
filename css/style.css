@@ -133,7 +133,11 @@ footer {
 }
 
 footer .logo {
-    font-size: 70px;
+    font-size: 90px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer a {
