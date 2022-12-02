@@ -20,6 +20,16 @@ body {
   font-size: 18px;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--color-dark-grayish-blue);
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
 p {
   color: var(--color-grayish-blue);
 }
@@ -177,12 +187,6 @@ footer .social a:nth-child(3):hover {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-}
-
-h1,
-h2,
-h3 {
-  color: var(--color-dark-grayish-blue);
 }
 
 @media screen and (max-width: 376px) {
