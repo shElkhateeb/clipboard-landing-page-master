@@ -111,6 +111,7 @@ section {
 
 .img-logos img {
   padding: 2em;
+  margin-top: var(--margin-top);
 }
 
 footer {
