@@ -226,7 +226,7 @@ footer .social a:nth-child(3):hover {
     height: 140px;
   }
 
-  footer a {
+  footer > a {
     text-align: left;
   }
 }
